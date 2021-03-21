@@ -25,10 +25,11 @@
 
 % For mathematical symbols
 \usepackage{amsmath}
+\usepackage{hyperref}
 
 % Set applicant's personal data for header
 \name{Roman Sorin}
-\address{github.com/romansorin}
+\address{\href{https://github.com/romansorin}{github.com/romansorin}}
 \contacts{(216) 302-8812 \linebreak roman@romansorin.com}
 
 \begin{document}
@@ -39,70 +40,56 @@
 	% Print the content
 	\begin{cvsection}{Employment}
 		\begin{cvsubsection}{Lead Software Developer}{Vesst}{Dec 2019 - Present}
-			iChat AV			
 			\begin{itemize}
-				\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-				\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-				\item Redesigned chat file format and implemented backwards compatibility for search.
+				\item Structured full design and API systems with high-scalability and performance in mind; refactored APIs, schemas, and models across several projects improving maintainability of code and reducing the frequency of bugs experienced.
+				\item Integrated caching of requests and queries made by services for reduced wait times and faster client-side requests.
+				\item Solved obscure issues and downtime related to database and web server setup, preventing further downtime and loss.
 			\end{itemize}
 		\end{cvsubsection}
 		
 		\begin{cvsubsection}{Lead Software Developer}{Lexxify}{Feb 2020 - Nov 2020}	
 			\begin{itemize}
-				\item established stack and infrastructure to be used for revamped site
-				\item Reduced number of hours that would otherwise be spent on manual action by building internal tooling and utilities; these tools improved the rate of production and increased the internal quality of the product
-				\item Created consistency in API responses and behavior through building these utilities
-				\item Designed and developed the web app, handled system and API design, attempted efforts and implementing different forms of project management resulting in more features being released sooner, everyone being on the same page, and more aggressive timelines
+				\item Redesigned the entire application ranging from infrastructure to actual implementation for a more efficient, high-quality product and user experience.
+				\item Established internal documentation and practices to reduce overhead and improve developer experience.
+				\item Built utilities and APIs to be used for internal and external consumption providing more consistency in responses, behavior, and ease of use
+				\item Incorporated project management techniques to maintain constant growth, increase frequency of updates, and ensure that there was constant collaboration across the team.
 			\end{itemize}
 		\end{cvsubsection}
 		
 		\begin{cvsubsection}{Software Developer}{Lets-go.design}{Jul 2019 - Dec 2019}		
 			\begin{itemize}
-				\item API/model design for course management. Maintenance and development of open source SaaS projects and marketing pages. - work on this one
-				\item Improved the internal admin dashboard and course management CMS - work on this one
-				\item Maintained and contributed to open-source SaaS template offerings - work on this one
-				\item Obtained knowledge and guidance on best practices and asynchronous collaboration, resulting in an improved developer experience and focus on code quality.
+				\item Added and maintained new features to both the admin and user-facing parts of the application, increasing exposure and adoption of the product.
+				\item Obtained knowledge and guidance on best practices and asynchronous collaboration, resulting in a greater focus on quality through documentation and code review.
 			\end{itemize}
 		\end{cvsubsection}
 		
 		\begin{cvsubsection}{Software Developer}{CarbonWebPrint}{Jan 2019 - Jul 2019}
 			\begin{itemize}
 				\item Built a reporting dashboard for clients to view analytics resulting in increased profits and client retention.
-				\item Piloted efforts towards performance optimization and efficiency to improve user experience and general production.
 				\item Furthered collaboration skills through the instruction of colleagues and pushed for changes in architecture, translating into more clients and projects.
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
 	
 	\begin{cvsection}{Projects}
-		% what is a better way of titling this?
-		\begin{cvsubsection}{AI-based UX Research}{}{}	
+		\begin{cvsubsection}{Layout Hierarchy and UX}{}{}
 			\begin{itemize}
-				\item Promoted to Lead Student Ambassador in Fall 2004; supervised 10 -- 15 Student Ambassadors.
-				\item Created and taught Computer Science course, CSE 099: Software Design and Development.
+				\item Developed a comprehensive Python application which implemented AWS Alexa APIs, scraped pages, and performed image manipulation using OpenCV to standardize results and maintain constant features.
+				\item Implemented a clustering algorithm to determine commonalities in most popular global website layouts, and designed several layout variants based on clustering results.
+				\item Built a web app to randomly display a variant to a user and record their behavior; analyzed user behavior by looking at various metrics and patterns associated with layouts.
+				\item Wrote an extensive research paper detailing the process, results, and implications, as well as possibilities for future research and real-world implementation.
 			\end{itemize}
 		\end{cvsubsection}
 		\begin{cvsubsection}{BoardVitals QA}{}{}	
 			\begin{itemize}
-				\item Promoted to Lead Student Ambassador in Fall 2004; supervised 10 -- 15 Student Ambassadors.
-				\item Created and taught Computer Science course, CSE 099: Software Design and Development.
-			\end{itemize}
-		\end{cvsubsection}
-		\begin{cvsubsection}{MHS Revamp}{}{}	
-			\begin{itemize}
-				\item Promoted to Lead Student Ambassador in Fall 2004; supervised 10 -- 15 Student Ambassadors.
-				\item Created and taught Computer Science course, CSE 099: Software Design and Development.
+				\item Reverse-engineered API requests to automatically query and parse exam questions/answers from a bank based on exam ID and authentication cookies. Manipulated API responses to display data concisely using JSON, implemented basic throttling to reduce the frequency of requests.
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
 	
 	\begin{cvsection}{Skills}
 		\begin{cvsubsection}{}{}{}	
-			\begin{itemize}
-				\item PHP, Javascript, HTML/CSS, SQL, React, Vue, Python
-				\item TailwindCSS, Node, Laravel, Unix, Git, AWS, Flask
-			\end{itemize}
+			(\textit{proficient}): PHP, Laravel, JavaScript, HTML/CSS, React, Vue, Git (\textit{familiar}): SQL, Python, Unix, AWS
 		\end{cvsubsection}
 	\end{cvsection}
-	
 \end{document}
